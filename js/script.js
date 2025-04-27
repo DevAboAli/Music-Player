@@ -14,14 +14,14 @@ document.addEventListener("DOMContentLoaded", function() {
     const logoutBtn = document.getElementById("logoutBtn");
 
     const songs = [
-        "/Voices/organ-stabs-staccato-echo(chosic.com).mp3",
-        "/Voices/boom-impact-2(chosic.com).mp3",
-        "/Voices/Air-Raid-Siren-Alarm-chosic.com_.mp3",
-        "/Voices/Field-Cricket-chosic.com_.mp3",
-        "/Voices/laughing(chosic.com).mp3",
-        "/Voices/Fire-crackles(chosic.com).mp3",
-        "/Voices/hope-sounds-wind(chosic.com).mp3",
-        "/Voices/electronic-pounding-sound-mono(chosic.com).mp3"
+        "../Voices/organ-stabs-staccato-echo(chosic.com).mp3",
+        "../Voices/boom-impact-2(chosic.com).mp3",
+        "../Voices/Air-Raid-Siren-Alarm-chosic.com_.mp3",
+        "../Voices/Field-Cricket-chosic.com_.mp3",
+        "../Voices/laughing(chosic.com).mp3",
+        "../Voices/Fire-crackles(chosic.com).mp3",
+        "../Voices/hope-sounds-wind(chosic.com).mp3",
+        "../Voices/electronic-pounding-sound-mono(chosic.com).mp3"
     ];
     logoutBtn
     let isHeartRed = false;
