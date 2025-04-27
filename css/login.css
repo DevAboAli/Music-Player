@@ -7,7 +7,7 @@
 
 body {
     background-color: #4F5256;
-    background-image: url('/images/musics.png');
+    background-image: url('../images/musics.png');
     background-size: auto;  
     background-position: center;
 }
@@ -19,7 +19,7 @@ body {
 }
 .left {
     flex: 1;
-    background: url('images/image.jpg');
+    background: url('../images/image.jpg');
 }
 .right {
     flex: 1;
