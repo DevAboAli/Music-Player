@@ -1,10 +1,13 @@
+
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     margin: 0; 
     font-family: Arial, sans-serif;
-    background-color: #8d8e88;
+    background: linear-gradient(#0c338242,#181b21),url(/images/man_whith_headphone.jpg);
+    background-position:center;
+    background-size: cover;
 }
 a{
     text-decoration: none;
@@ -12,10 +15,13 @@ a{
 header,footer {
     text-align: center;
     position: relative;
-    background-color: #8d8e88;
-    color: black;
-    padding: 20px;
+    background-color: #0e192830;
+    color: #aea9fb49;
     z-index: 10; /* Ensures header and footer stay above other content */
+}
+header{
+    background-color: #0b264924;
+    color: rgb(24, 47, 66);
 }
 
 .logo {
@@ -32,7 +38,7 @@ header,footer {
 .slogan {
     font-family: monospace;
     font-size: 18px;
-    color: black;
+    color: #265694;
     text-align: center;
     margin-top: -15px;
 }
@@ -42,12 +48,6 @@ main {
     display:flex;          
     justify-content: center;
     align-items: center;
-}
-
-.image-container {
-    position: relative;
-    max-width: 100%;
-    overflow: hidden;
 }
 
 .tryout-image {
@@ -64,7 +64,7 @@ main {
     left: 50%;
     transform: translateX(-50%);
     background-color: rgpa(0,0,0,0);
-    color: #8d8e88;
+    color: #431efd;
     padding: 10px 20px;
     border-radius: 100px;
     text-decoration: none;
@@ -72,8 +72,8 @@ main {
 }
 
 .tryout-box:hover {
-    background-color: #8d8e88;
-    color: black;
+    background-color: #170fa8;
+    color: #aea9fb;
 }
 
 .social-media {
@@ -81,6 +81,7 @@ main {
     justify-content: center;
     gap: 15px;
     margin-top: 10px;
+
 }
 
 .social-icon img {
